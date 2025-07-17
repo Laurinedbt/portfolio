@@ -13,6 +13,7 @@ import Portfolio from "./pages/Portfolio";
 function App() {
   return (
     <div className="App">
+<<<<<<< HEAD
       <NavBar />
       <Footer />
 
@@ -23,6 +24,9 @@ function App() {
         <Route path= "/portfolio" element={<Portfolio />}></Route>
         <Route path= "/services" element={<Services />}></Route>
       </Routes>
+=======
+      <Home />
+>>>>>>> skills
     </div>
   );
 }
