@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer () {
     return (
@@ -14,9 +15,9 @@ function Footer () {
             <p className="mb-0"><a href="tel:1020304050">10 20 30 40 50</a></p>
             <p className="mb-0"><a href="mailto:john.doe@gmail.com">john.doe@gmail.com</a></p>
             <div className="mt-4">
-                <a href="https://github.com/Laurinedbt/portfolio" target="_blank" rel="noopener noreferrer"><i className="bi bi-github"></i></a>
-                <a href="https://x.com/" target="_blank" rel="noopener noreferrer"><i className="bi bi-twitter"></i></a>
-                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"><i className="bi bi-linkedin"></i></a>
+                <a href="https://github.com/Laurinedbt/portfolio" target="_blank" rel="noopener noreferrer nofollow"><i className="bi bi-github"></i></a>
+                <a href="https://x.com/" target="_blank" rel="noopener noreferrer nofollow"><i className="bi bi-twitter"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer nofollow"><i className="bi bi-linkedin"></i></a>
             </div>
           </div>
           
@@ -24,11 +25,11 @@ function Footer () {
           <div className="col-md-4 mb-4">
             <h3>Liens utiles</h3>
             <ul className="list-unstyled">
-              <li><a href="/" className="text-light text-decoration-none">Accueil</a></li>
-              <li><a href="/services" className="text-light text-decoration-none">Services</a></li>
-              <li><a href="/portfolio" className="text-light text-decoration-none">Portfolio</a></li>
-              <li><a href="/contact" className="text-light text-decoration-none">Me contacter</a></li>
-              <li><a href="/about" className="text-light text-decoration-none">Mentions légales</a></li>
+              <li><Link to="/" className="text-light text-decoration-none">Accueil</Link></li>
+              <li><Link to="/services" className="text-light text-decoration-none">Services</Link></li>
+              <li><Link to="/portfolio" className="text-light text-decoration-none">Portfolio</Link></li>
+              <li><Link to="/contact" className="text-light text-decoration-none">Me contacter</Link></li>
+              <li><Link to="/about" className="text-light text-decoration-none">Mentions légales</Link></li>
             </ul>
           </div>
           
