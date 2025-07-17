@@ -1,6 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import './index.css';
 
 function NavBar () {
     return (
@@ -8,7 +7,7 @@ function NavBar () {
         <div className="container-fluid">
           <a className="navbar-brand text-light" href="#page-top">JOHN DOE</a>
           <button
-            className="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded"
+            className="navbar-toggler text-uppercase font-weight-bold bg-dark border-3 text-white rounded"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarResponsive"
@@ -40,8 +39,8 @@ function NavBar () {
         </div>
   </nav>
 
-  
 )
 }
+
 
 export default NavBar;
