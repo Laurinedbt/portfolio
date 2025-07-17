@@ -10,7 +10,6 @@
   text-decoration: underline;
 }
 
-<<<<<<< HEAD
 footer h3 {
   font-weight: 400;
 }
@@ -30,7 +29,6 @@ footer a {
 .bi:hover {
   opacity: 80%;
 }
-=======
 .home-header {
   min-height: 1000px;
   background-image: url(../public/img/hero-bg.jpg);
@@ -53,4 +51,3 @@ header h2 {
 
 
 
->>>>>>> skills

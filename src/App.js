@@ -1,8 +1,6 @@
 import './App.css';
 import './index.css';
 import {Routes, Route} from "react-router-dom";
-import NavBar from "./components/NavBar";
-import Footer from "./components/Footer";
 
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -13,9 +11,6 @@ import Portfolio from "./pages/Portfolio";
 function App() {
   return (
     <div className="App">
-<<<<<<< HEAD
-      <NavBar />
-      <Footer />
 
       <Routes>
         <Route path= "/" element={<Home />}></Route>
@@ -24,9 +19,6 @@ function App() {
         <Route path= "/portfolio" element={<Portfolio />}></Route>
         <Route path= "/services" element={<Services />}></Route>
       </Routes>
-=======
-      <Home />
->>>>>>> skills
     </div>
   );
 }
