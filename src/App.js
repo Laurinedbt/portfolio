@@ -2,6 +2,7 @@ import './App.css';
 import './index.css';
 import {Routes, Route} from "react-router-dom";
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -13,6 +14,7 @@ function App() {
   return (
     <div className="App">
       <NavBar />
+      <Footer />
 
       <Routes>
         <Route path= "/" element={<Home />}></Route>
