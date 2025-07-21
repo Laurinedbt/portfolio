@@ -1,3 +1,4 @@
+import React from "react";
 
 const Home = () => {
     return (
@@ -8,6 +9,25 @@ const Home = () => {
                 <button type="button" className="btn btn-danger px-4 mt-2">En savoir plus</button>
             </header>
             <main>
+                <div class="modal" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Mon profil GitHub</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            
+                            {/* Intégrer les données de l'api ici */}
+                    
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
                 <section>
                     <div className="container">
                         <div className="row">

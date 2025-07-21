@@ -1,5 +1,6 @@
 import './App.css';
 import './index.css';
+import { useEffect, useState } from 'react';
 import {Routes, Route} from "react-router-dom";
 
 import Home from "./pages/Home";
@@ -9,6 +10,19 @@ import Services from "./pages/Services";
 import Portfolio from "./pages/Portfolio";
 
 function App() {
+
+  const [data,setData] = useState([]);
+
+  const getMyModal = async () => {
+    const res = await fetch("https://api.github.com/users/github-john-doe");
+    const json = await res.json();
+    setData(json);
+}
+
+  useEffect(() => {
+    getMyModal();
+  }, []);
+
   return (
     <div className="App">
 
