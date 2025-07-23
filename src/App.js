@@ -1,4 +1,5 @@
 import './App.css';
+import './index.css';
 import {Routes, Route} from "react-router-dom";
 
 import Home from "./pages/Home";
@@ -10,18 +11,17 @@ import Portfolio from "./pages/Portfolio";
 function App() {
   return (
     <div className="App">
-      <Home />
-      <Contact />
+
+      <Routes>
+        <Route path= "/" element={<Home />}></Route>
+        <Route path= "/about" element={<About />}></Route>
+        <Route path= "/contact" element={<Contact />}></Route>
+        <Route path= "/portfolio" element={<Portfolio />}></Route>
+        <Route path= "/services" element={<Services />}></Route>
+      </Routes>
+
     </div>
   );
 }
-
-<Routes>
-  <Route path= "/" element={Home}></Route>
-  <Route path= "/about" element={About}></Route>
-  <Route path= "/contact" element={Contact}></Route>
-  <Route path= "/portfolio" element={Portfolio}></Route>
-  <Route path= "/services" element={Services}></Route>
-</Routes>
 
 export default App;
