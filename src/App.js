@@ -7,10 +7,13 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Services from "./pages/Services";
 import Portfolio from "./pages/Portfolio";
+import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
+      <NavBar />
 
       <Routes>
         <Route path= "/" element={<Home />}></Route>
@@ -19,6 +22,9 @@ function App() {
         <Route path= "/portfolio" element={<Portfolio />}></Route>
         <Route path= "/services" element={<Services />}></Route>
       </Routes>
+
+    <Footer />
+
     </div>
   );
 }
