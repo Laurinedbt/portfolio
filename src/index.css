@@ -24,11 +24,6 @@ footer a:hover {
   color: white;
 }
 
-footer a:hover {
-  font-weight: bold;
-  color: white;
-}
-
 footer .bi {
   font-size: 2rem;
   color: white;
@@ -39,6 +34,7 @@ footer .bi {
 footer .bi:hover {
   opacity: 100%;
 }
+
 .custom-icon-modal {
   font-size: 1rem;
   margin-right: 8px;
