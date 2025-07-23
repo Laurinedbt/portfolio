@@ -19,13 +19,13 @@ footer a {
   color: white;
 }
 
-.bi {
+footer .bi {
   font-size: 2rem;
   color: white;
   opacity: 30%;
   margin-right: 8px;
 }
 
-.bi:hover {
+footer .bi:hover {
   opacity: 80%;
 }
