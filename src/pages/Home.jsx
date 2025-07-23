@@ -7,7 +7,7 @@ const Home = () => {
         <div>
             <header className="home-header">
                 <div className="hero-content text-center">
-                    <h1 className="">Bonjour, je suis John Doe</h1>
+                    <h1>Bonjour, je suis John Doe</h1>
                     <h2>Développeur web full stack</h2>
                     <button type="button" className="btn btn-danger px-4 mt-2" data-bs-toggle="modal" data-bs-target="#userModal">En savoir plus</button>
                 </div>
