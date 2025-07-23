@@ -19,15 +19,13 @@ footer a {
   color: white;
 }
 
-.bi {
-  font-size: 2rem;
-  color: white;
-  opacity: 30%;
+.custom-icon-modal {
+  font-size: 1rem;
   margin-right: 8px;
 }
 
-.bi:hover {
-  opacity: 80%;
+.modal-body{
+  padding-right: 50px;
 }
 
 /* Pour la page Home */
