@@ -3,7 +3,6 @@ import UserModalFetcher from "../components/UserModalFetcher";
 
 const Home = () => {
     return (
-
         <div>
             <header className="home-header">
                 <div className="hero-content text-center">

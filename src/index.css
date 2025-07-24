@@ -120,5 +120,17 @@ footer .bi:hover {
   margin-bottom: 35px;
 }
 
+.contact-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
+.contact-hr{
+  margin-bottom: 40px;
+}
 
+.johndoe-adress{
+  font-size: 1.4em;
+}
