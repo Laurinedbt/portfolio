@@ -5,7 +5,7 @@ function NavBar () {
     return (
   <nav className="navbar navbar-expand-lg navbar-dark bg-dark text-uppercase px-4 fixed-top" id="mainNav">
         <div className="container-fluid">
-          <a className="navbar-brand text-light" href="#page-top">JOHN DOE</a>
+          <a className="navbar-brand text-light text-uppercase" href="#page-top">John Doe</a>
           <button
             className="navbar-toggler text-uppercase font-weight-bold bg-dark border-3 text-white rounded"
             type="button"
@@ -15,7 +15,7 @@ function NavBar () {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span> {/* C'est ici que le "burger" apparaît */}
+            <span className="navbar-toggler-icon"></span> {/*pour le menu "burger"*/}
           </button>
           <div className="collapse navbar-collapse" id="navbarResponsive">
             <ul className="navbar-nav ms-auto">

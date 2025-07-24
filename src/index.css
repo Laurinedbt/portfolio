@@ -120,6 +120,10 @@ footer .bi:hover {
   margin-bottom: 35px;
 }
 
+.contact-h1{
+  padding-top: 120px;
+}
+
 .contact-header{
   display: flex;
   justify-content: center;

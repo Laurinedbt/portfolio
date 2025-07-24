@@ -5,7 +5,7 @@ const Contact = () => {
         <div>
             <header className="contact-header">
                 <div>
-                    <h1>Contact</h1>
+                    <h1 className="contact-h1">Contact</h1>
                     <p>Pour me contacter en vue d'un entretien ou d'une future collaboration, merci de remplir le formulaire de contact.</p>
                     <div className="d-flex justify-content-center">
                         <hr className="border border-3 border-primary opacity-100 rounded w-50"/>
