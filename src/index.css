@@ -8,5 +8,22 @@
   text-align: center;
 }
 
+.section {
+  margin: 50px auto;
+  padding: 30px;
+  border: 1px solid #dddd;
+  box-shadow: -7px 0px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 10px 0px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+}
 
+.contact-hr{
+  margin-bottom: 40px;
+}
 
+.johndoe-adress{
+  font-size: 1.4em;
+}
