@@ -143,8 +143,15 @@ footer .bi:hover {
   font-size: 1.4em;
 }
 
+/*Pour la page Services*/
+
 .card{
   max-width: 432px;
   margin: 10px; 
+}
+
+.card:hover{
+  background-color: #efefef;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.30);
 }
 
