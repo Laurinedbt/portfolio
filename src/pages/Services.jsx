@@ -13,7 +13,7 @@ const Services = () => {
             <main>
                 <div className="container-fluid">
                     <div className="row justify-content-center m-1">
-                            <div class="card col-12 col-md-4">
+                            <div class="card col-12 col-md-4 services-card">
                                 <div class="card-body text-center p-3">
                                     <div className="m-4">
                                         <i className="bi bi-brush text-primary fs-1"></i>
@@ -25,7 +25,7 @@ const Services = () => {
                                 </div>
                             </div>
 
-                        <div class="card col-12 m- col-md-4">
+                        <div class="card col-12 m- col-md-4 services-card">
                             <div class="card-body text-center p-3">
                                 <div className="m-4">
                                     <i className="bi bi-code-slash text-primary fs-1 m-4"></i>
@@ -37,7 +37,7 @@ const Services = () => {
                             </div>
                         </div>
 
-                        <div class="card col-12 col-md-4">
+                        <div class="card col-12 col-md-4 services-card">
                             <div class="card-body text-center p-3">
                                 <div className="m-4">
                                     <i className="bi bi-search text-primary fs-1"></i>
