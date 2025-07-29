@@ -30,7 +30,6 @@ const Portfolio = () => {
                         </div>
 
                             {/* CARD RESTAURANT AKIRA */}
-
                         <div className="col-12 col-md-4">
                             <div className="card p-0">
                                 <img src="/img/portfolio/restaurant-japonais.jpg" className="card-img-top" alt="Sushis et makis"></img>
@@ -46,7 +45,6 @@ const Portfolio = () => {
                         </div>
 
                             {/* CARD ESPACE BIEN-ETRE */}
-
                         <div className="col-12 col-md-4">
                             <div className="card p-0">
                                 <img src="/img/portfolio/espace-bien-etre.jpg" className="card-img-top" alt="Fruits et légumes"></img>
@@ -62,7 +60,6 @@ const Portfolio = () => {
                         </div>
 
                             {/* CARD SEO */}
-
                         <div className="col-12 col-md-4">
                             <div className="card p-0">
                                 <img src="/img/portfolio/seo.jpg" className="card-img-top" alt="Fruits et légumes"></img>
@@ -78,7 +75,6 @@ const Portfolio = () => {
                         </div>
 
                             {/* CARD CREATION D'UNE API */}
-
                         <div className="col-12 col-md-4">
                             <div className="card p-0">
                                 <img src="/img/portfolio/coder.jpg" className="card-img-top" alt="Fruits et légumes"></img>
@@ -94,7 +90,6 @@ const Portfolio = () => {
                         </div>
 
                             {/* CARD MAQUETTE D'UN SITE WEB */}
-
                         <div className="col-12 col-md-4">
                             <div className="card p-0">
                                 <img src="/img/portfolio/screens.jpg" className="card-img-top" alt="Fruits et légumes"></img>
@@ -108,7 +103,6 @@ const Portfolio = () => {
                                 </div>
                             </div>
                         </div>
-
 
                     </div>
                 </div>
