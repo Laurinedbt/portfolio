@@ -11,17 +11,17 @@ const Portfolio = () => {
                     </div>
             </header>
             <main>
-                <div className="container-fluid">
-                    <div className="row justify-content-center m-1">
+                <div className="container">
+                    <div className="row mt-5">
 
                         {/* CARD FRESH FOOD */}
-                        <div className="col-12 col-md-4">
+                        <div className="col-12 col-md-4 mb-4">
                             <div className="card p-0">
                                 <img src="/img/portfolio/fresh-food.jpg" className="card-img-top" alt="Fruits et légumes"></img>
                                 <div className="card-body text-center">
                                     <h2 className="card-title">Fresh Food</h2>
                                     <p className="card-text">Site de vente de produits frais en ligne</p>
-                                    <a href="/" className="btn btn-primary">Voir le site</a>
+                                    <a href="/portfolio" className="btn btn-primary">Voir le site</a>
                                 </div>
                                 <div className="card-footer d-flex justify-content-center align-items-center">
                                     <p className="m-0">Site réalisé avec PHP et MySQL</p>
@@ -30,7 +30,7 @@ const Portfolio = () => {
                         </div>
 
                             {/* CARD RESTAURANT AKIRA */}
-                        <div className="col-12 col-md-4">
+                        <div className="col-12 col-md-4 mb-4">
                             <div className="card p-0">
                                 <img src="/img/portfolio/restaurant-japonais.jpg" className="card-img-top" alt="Sushis et makis"></img>
                                 <div className="card-body text-center">
@@ -45,7 +45,7 @@ const Portfolio = () => {
                         </div>
 
                             {/* CARD ESPACE BIEN-ETRE */}
-                        <div className="col-12 col-md-4">
+                        <div className="col-12 col-md-4 mb-4">
                             <div className="card p-0">
                                 <img src="/img/portfolio/espace-bien-etre.jpg" className="card-img-top" alt="Fruits et légumes"></img>
                                 <div className="card-body text-center">
@@ -60,7 +60,7 @@ const Portfolio = () => {
                         </div>
 
                             {/* CARD SEO */}
-                        <div className="col-12 col-md-4">
+                        <div className="col-12 col-md-4 mb-4">
                             <div className="card p-0">
                                 <img src="/img/portfolio/seo.jpg" className="card-img-top" alt="Fruits et légumes"></img>
                                 <div className="card-body text-center">
@@ -75,7 +75,7 @@ const Portfolio = () => {
                         </div>
 
                             {/* CARD CREATION D'UNE API */}
-                        <div className="col-12 col-md-4">
+                        <div className="col-12 col-md-4 mb-4">
                             <div className="card p-0">
                                 <img src="/img/portfolio/coder.jpg" className="card-img-top" alt="Fruits et légumes"></img>
                                 <div className="card-body text-center">
@@ -90,7 +90,7 @@ const Portfolio = () => {
                         </div>
 
                             {/* CARD MAQUETTE D'UN SITE WEB */}
-                        <div className="col-12 col-md-4">
+                        <div className="col-12 col-md-4 mb-4">
                             <div className="card p-0">
                                 <img src="/img/portfolio/screens.jpg" className="card-img-top" alt="Fruits et légumes"></img>
                                 <div className="card-body text-center">

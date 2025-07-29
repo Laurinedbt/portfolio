@@ -143,11 +143,6 @@ footer .bi:hover {
   font-size: 1.4em;
 }
 
-.card{
-  max-width: 432px;
-  margin: 10px; 
-}
-
 .card-footer{
   color: gray;
 }
