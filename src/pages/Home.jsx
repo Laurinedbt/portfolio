@@ -12,7 +12,7 @@ const Home = () => {
                 <div className="hero-content">
                     <h1>Bonjour, je suis John Doe</h1>
                     <h2>Développeur web full stack</h2>
-                    <button type="button" className="btn btn-danger px-4 mt-2" data-bs-toggle="modal" data-bs-target="#userModal">En savoir plus</button>
+                    <button type="button" className="btn btn-danger px-4 mt-2" data-bs-toggle="modal" data-bs-target="#userModal" aria-controls="userModal">En savoir plus</button>
                 </div>
             </header>
 
@@ -43,7 +43,7 @@ const Home = () => {
                                 <div className="progress mb-4">
                                     <div className="progress-bar bg-info" role="progressbar" style= {{ width: "80%" }} aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
-                                <p className="mb-1">JAVASCRIPT 70%</p>
+                                <p className="mb-1 text-uppercase">Javascript 70%</p>
                                 <div className="progress mb-4">
                                     <div className="progress-bar bg-warning" role="progressbar" style= {{ width: "70%" }} aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
@@ -51,7 +51,7 @@ const Home = () => {
                                 <div className="progress mb-4">
                                     <div className="progress-bar bg-success" role="progressbar" style= {{ width: "60%" }} aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
-                                <p className="mb-1">REACT 50%</p>
+                                <p className="mb-1 text-uppercase">React 50%</p>
                                 <div className="progress mb-4">
                                     <div className="progress-bar" role="progressbar" style= {{ width: "50%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
