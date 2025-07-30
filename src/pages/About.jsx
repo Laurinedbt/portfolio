@@ -1,7 +1,13 @@
+import { Helmet } from "react-helmet";
 
 const About = () => {
     return (
         <div>
+            <Helmet>
+                <title>Mentions légales</title>
+                <meta name="robots" content="noindex, nofollow" />
+            </Helmet>
+
             <header className="about-header pb-5">
                     <div className="text-center pt-5">
                         <h1 className="pt-5 pb-2">Mentions légales</h1>
