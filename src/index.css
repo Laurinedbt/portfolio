@@ -148,6 +148,9 @@ footer .bi:hover {
 .services-card{
   max-width: 432px;
   margin: 10px; 
+  
+.card-footer{
+  color: gray;
 }
 
 .card:hover{
