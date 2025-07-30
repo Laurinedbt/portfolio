@@ -1,3 +1,6 @@
+Bienvenue dans mon portfolio !
+Ce site internet a pour but de me présenter sur le marché de l’emploi et rechercher un emploi en alternance. 
+
 # Objectifs
 
 Grâce à ce site, nous voyons que nous sommes capable de :
@@ -16,8 +19,6 @@ Grâce à ce site, nous voyons que nous sommes capable de :
 
 - Installer et configurer notre environnement de travail en fonction du projet web ou web mobile.
 - Réaliser des interfaces utilisateur **statiques** pour le web ou le web mobile.
-
-
 
 
 
