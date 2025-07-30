@@ -1,20 +1,25 @@
+import { Helmet } from "react-helmet";
 
 const Services = () => {
     return (
         <div>
-            <header className="services-header">
+            <Helmet>
+                <title>Services</title>
+                <meta name="robots" content="index, follow" />
+            </Helmet>
+            <header>
                     <div>
                         <img src="/img/banner.jpg" alt="A propos de John Doe" className="mt-5 img-fluid"/>
-                        <h1 className="mt-5">Mon offre de services</h1>
-                        <p>Voici les prestations sur lesquelles je peux intervenir</p>
+                        <h1 className="mt-5 text-center">Mon offre de services</h1>
+                        <p className="text-center">Voici les prestations sur lesquelles je peux intervenir</p>
                             <hr className="mx-auto w-25 border border-3 border-primary opacity-100 rounded"/>
                     </div>
             </header>
             <main>
                 <div className="container-fluid">
                     <div className="row justify-content-center m-1">
-                            <div class="card col-12 col-md-4 services-card">
-                                <div class="card-body text-center p-3">
+                            <div className="card col-12 col-md-4 services-card">
+                                <div className="card-body text-center p-3">
                                     <div className="m-4">
                                         <i className="bi bi-brush text-primary fs-1"></i>
                                     </div>
@@ -25,8 +30,8 @@ const Services = () => {
                                 </div>
                             </div>
 
-                        <div class="card col-12 m- col-md-4 services-card">
-                            <div class="card-body text-center p-3">
+                        <div className="card col-12 m- col-md-4 services-card">
+                            <div className="card-body text-center p-3">
                                 <div className="m-4">
                                     <i className="bi bi-code-slash text-primary fs-1 m-4"></i>
                                 </div>

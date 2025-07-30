@@ -19,7 +19,7 @@ export default function UserModal({data}) {
                                 </div>
 
                                 <div className="col-12 pt-3 col-md-5">
-                                    <p><i className="bi bi-person custom-icon-modal"></i><a href="https://github.com/github-john-doe" alt="John Doe GitHub" target="_blank" rel="noopener noreferrer">{data.name}</a></p>
+                                    <p><i className="bi bi-person custom-icon-modal"></i><a href="https://github.com/github-john-doe" target="_blank" rel="noopener noreferrer">{data.name}</a></p>
                                     <hr></hr>
                                     <p><i className="bi bi-geo-alt custom-icon-modal"></i>{data.location}</p>
                                     <hr></hr>

@@ -1,11 +1,15 @@
-import React from "react";
 import UserModalFetcher from "../components/UserModalFetcher";
+import { Helmet } from "react-helmet";
 
 const Home = () => {
     return (
         <div>
-            <header className="home-header">
-                <div className="hero-content text-center">
+            <Helmet>
+                <title>Accueil</title>
+                <meta name="robots" content="index, follow" />
+            </Helmet>
+            <header className="home-header text-center">
+                <div className="hero-content">
                     <h1>Bonjour, je suis John Doe</h1>
                     <h2>Développeur web full stack</h2>
                     <button type="button" className="btn btn-danger px-4 mt-2" data-bs-toggle="modal" data-bs-target="#userModal">En savoir plus</button>

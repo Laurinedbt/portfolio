@@ -1,12 +1,17 @@
+import { Helmet } from "react-helmet";
 
 const Portfolio = () => {
     return (
         <div>
-            <header className="services-header">
+            <Helmet>
+                <title>Portfolio John Doe</title>
+                <meta name="robots" content="index, follow" />
+            </Helmet>
+            <header>
                     <div>
                         <img src="/img/banner.jpg" alt="A propos de John Doe" className="mt-5 img-fluid"/>
-                        <h1 className="mt-5">Portfolio</h1>
-                        <p>Voici quelques-unes de mes réalisations</p>
+                        <h1 className="mt-5 text-center">Portfolio</h1>
+                        <p className="text-center">Voici quelques-unes de mes réalisations</p>
                             <hr className="mx-auto w-25 border border-3 border-primary opacity-100 rounded"/>
                     </div>
             </header>
@@ -36,7 +41,7 @@ const Portfolio = () => {
                                 <div className="card-body text-center">
                                     <h2 className="card-title">Restaurant Akira</h2>
                                     <p className="card-text">Site de vente de produits frais en ligne</p>
-                                    <a href="/" className="btn btn-primary btn-portfolio">Voir le site</a>
+                                    <a href="/portfolio" className="btn btn-primary btn-portfolio">Voir le site</a>
                                 </div>
                                 <div className="card-footer d-flex justify-content-center align-items-center">
                                     <p className="m-0">Site réalisé avec WordPress</p>
@@ -51,7 +56,7 @@ const Portfolio = () => {
                                 <div className="card-body text-center">
                                     <h2 className="card-title">Espace bien-être</h2>
                                     <p className="card-text">Site de vente de produits frais en ligne</p>
-                                    <a href="/" className="btn btn-primary btn-portfolio">Voir le site</a>
+                                    <a href="/portfolio" className="btn btn-primary btn-portfolio">Voir le site</a>
                                 </div>
                                 <div className="card-footer d-flex justify-content-center align-items-center">
                                     <p className="m-0">Site réalisé avec LARAVEL</p>
@@ -66,7 +71,7 @@ const Portfolio = () => {
                                 <div className="card-body text-center">
                                     <h2 className="card-title">SEO</h2>
                                     <p className="card-text">Amélioration du référencement d'un site e-commerce</p>
-                                    <a href="/" className="btn btn-primary btn-portfolio">Voir le site</a>
+                                    <a href="/portfolio" className="btn btn-primary btn-portfolio">Voir le site</a>
                                 </div>
                                 <div className="card-footer d-flex justify-content-center align-items-center">
                                     <p className="m-0">Utilisation des outils SEO</p>
@@ -81,7 +86,7 @@ const Portfolio = () => {
                                 <div className="card-body text-center">
                                     <h2 className="card-title">Création d'une API</h2>
                                     <p className="card-text">Création d'une API RESTFULL publique</p>
-                                    <a href="/" className="btn btn-primary btn-portfolio">Voir le site</a>
+                                    <a href="/portfolio" className="btn btn-primary btn-portfolio">Voir le site</a>
                                 </div>
                                 <div className="card-footer d-flex justify-content-center align-items-center">
                                     <p className="m-0">PHP - SYMFONY</p>
@@ -96,7 +101,7 @@ const Portfolio = () => {
                                 <div className="card-body text-center">
                                     <h2 className="card-title">Maquette d'un site web</h2>
                                     <p className="card-text">Création du prototype d'un site</p>
-                                    <a href="/" className="btn btn-primary btn-portfolio">Voir le site</a>
+                                    <a href="/portfolio" className="btn btn-primary btn-portfolio">Voir le site</a>
                                 </div>
                                 <div className="card-footer d-flex justify-content-center align-items-center">
                                     <p className="m-0">Réalisé avec FIGMA</p>
