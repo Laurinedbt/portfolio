@@ -1,3 +1,28 @@
+# Bienvenue dans mon portfolio ! Ce site internet a pour but de me présenter sur le marché de l’emploi et de m'aider pour ma recherche d'un emploi en alternance. 
+
+# Objectifs
+
+Grâce à ce site, nous voyons que nous sommes capable de :
+
+- Mettre en place et utiliser un environnement de développement intégré, y compris en anglais.
+- Utiliser des outils collaboratifs de développement logiciel et de versionning (type Git server).
+- Comprendre la documentation technique des outils et de l’environnement de travail, en français ou en anglais (niveau B1 CECRL).
+- Utiliser le langage de présentation **HTML** et le langage **CSS**.
+- Adapter l’interface à la taille, au type et à la disposition du support (responsivité), y compris pour les équipements mobiles.
+- Appliquer des règles de **référencement** pour les interfaces web.
+- Utiliser les **normes de codage** du langage.
+- Documenter le code, y compris en anglais (niveau B1 CECRL).
+- Planifier et suivre les tâches de réalisation des interfaces utilisateur.
+- Adapter l’interface aux **exigences du client**, en respectant la législation en vigueur.
+- Adapter l'interface au **type d'utilisation** de l'application, y compris pour les équipements mobiles.
+
+- Installer et configurer notre environnement de travail en fonction du projet web ou web mobile.
+- Réaliser des interfaces utilisateur **statiques** pour le web ou le web mobile.
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -39,32 +64,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
