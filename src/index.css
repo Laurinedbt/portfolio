@@ -1,39 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-
-.nav-link:hover {
-  text-decoration: underline;
-}
-
-.nav-link.active {
-  font-weight: bold;
-  text-decoration: underline;
-}
-
-footer h3 {
-  font-weight: 400;
-}
-
-footer a {
-  text-decoration: none;
-  color: white;
-}
-
-footer a:hover {
-  font-weight: bold;
-  color: white;
-}
-
-footer .bi {
-  font-size: 2rem;
-  color: white;
-  opacity: 30%;
-  margin-right: 8px;
-}
-
-footer .bi:hover {
-  opacity: 100%;
-}
+/* Pour la page Home */
 
 .custom-icon-modal {
   font-size: 1rem;
@@ -43,8 +9,6 @@ footer .bi:hover {
 .modal-body{
   padding-right: 50px;
 }
-
-/* Pour la page Home */
 
 .home-header {
   position: relative;

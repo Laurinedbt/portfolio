@@ -46,7 +46,7 @@ const About = () => {
                             </h2>
                             <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                 <div className="accordion-body">
-                                    <p><strong>alwaysdata</strong></p>
+                                    <h3>alwaysdata</h3>
                                     <p>91 rue du Faubourg Saint-Honoré, 75008 Paris</p>
                                     <p><i className="bi bi-globe pe-2"></i><a href="https://www.alwaysdata.com/fr/" target="_blank" rel="noreferrer">www.alwaysdata.com</a></p>
                                 </div>
@@ -62,7 +62,7 @@ const About = () => {
                             </h2>
                             <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                 <div className="accordion-body">
-                                    <p><strong>Crédits</strong></p>
+                                    <h3>Crédits</h3>
                                     <p>Ce site a été réalisé par John Doe, étudiant au <a href="https://www.centre-europeen-formation.fr" target="_blank" rel="noreferrer">Centre Européen de formation</a></p>
                                     <p className="fst-italic">Les images utilisées sur ce site sont libres de droits et ont été obtenues sur le site <a href="https://pixabay.com/fr/" target="_blank" rel="noreferrer">Pixabay</a></p>
                                     <p className="fst-italic">La favicon de ce site a été fourni par <a href="https://www.flaticon.com/de/kostenlose-icons/john-doe" target="_blank" rel="noreferrer">John Doe Icons erstellt von Freepik - Flaticon</a></p>

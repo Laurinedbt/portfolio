@@ -1,3 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap');
 
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, strong {
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+footer h3 {
+  font-weight: 400;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
+  font-weight: bold;
+  color: white;
+}
+
+footer .bi {
+  font-size: 2rem;
+  color: white;
+  opacity: 30%;
+  margin-right: 8px;
+}
+
+footer .bi:hover {
+  opacity: 100%;
+}
 
 
